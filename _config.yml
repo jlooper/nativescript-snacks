@@ -2,6 +2,7 @@
 title: NativeScript Snacks
 email: jen.looper@telerik.com
 banner: "/images/about.jpg"
+logo: "/images/logo.png"
 description: > # this means to ignore newlines until "baseurl:"
   NativeScript Snacks are bite-sized videos that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
 baseurl: "/nativescript-snacks" # the subpath of your site, e.g. /blog/
