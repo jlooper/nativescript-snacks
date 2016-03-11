@@ -1,0 +1,21 @@
+<!-- Header -->
+<div id="header-wrapper">
+    <div id="header">
+
+        <!-- Logo -->
+        <img src="/images/logo.png"/>
+            
+        <h1><a href="/">{{ site.title }}</a></h1>
+        
+        {% if page.url == "/index.html" or page.url == "/" %}
+        <!-- Banner -->
+            <section id="banner">
+                <header>
+                    <h2>Bite-Sized Video Tutorials</h2>
+                    <p>...all about NativeScript!</p>
+                </header>
+            </section>
+        {% endif %}
+
+    </div>
+</div>

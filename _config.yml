@@ -1,0 +1,13 @@
+# Site settings
+title: NativeScript Snacks
+email: jen.looper@telerik.com
+banner: "/images/about.jpg"
+description: > # this means to ignore newlines until "baseurl:"
+  NativeScript Snacks are bite-sized videos that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://nativescriptsnacks.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+excerpt_separator: "<!--more-->"

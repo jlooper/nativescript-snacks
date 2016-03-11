@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+
+<div class="row">
+    <div class="12u">
+
+        <!-- Snacks -->
+            <section>
+                <header class="major">
+                    <h2>Featured Snacks</h2>
+                </header>
+                <div class="row">
+                {% for snack in site.data.snacks %}
+                    <div class="6u">
+                        <section class="box">
+                            <span class="image featured">                            
+                                <iframe width="560" height="315" src="{{snack.video}}" frameborder="0" allowfullscreen></iframe>
+                            </span>
+                            <header class="minor">
+                                <h3>{{snack.name}}</h3>
+                                 <img src="{{snack.image}}"/>
+                            </header>
+                            <p>{{snack.description}}</p>
+                        </section>
+                    </div>
+                {% endfor %}
+                </div>
+            </section>
+
+    </div>
+</div>
