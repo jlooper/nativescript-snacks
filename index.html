@@ -20,7 +20,7 @@ layout: default
                             </span>
                             <header class="minor">
                                 <h3>{{snack.name}}</h3>
-                                 <img src="{{snack.image}}"/>
+                                 <img src="{{snack.image | prepend: site.baseurl}}"/>
                             </header>
                             <p>{{snack.description}}</p>
                         </section>
