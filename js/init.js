@@ -9,10 +9,10 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global':	{ range: '*', href: 'nativescript-snacks/css/style.css' },
-			'desktop':	{ range: '737-', href: 'nativescript-snacks/css/style-desktop.css', containers: 1200, grid: { gutters: 50 } },
-			'1000px':	{ range: '737-1200', href: 'nativescript-snacks/css/style-1000px.css', containers: 960, grid: { gutters: 25 }, viewport: { width: 1024 } },
-			'mobile':	{ range: '-736', href: 'nativescript-snacks/css/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 20 }, viewport: { scalable: false } }
+			'global':	{ range: '*', href: '/css/style.css' },
+			'desktop':	{ range: '737-', href: '/css/style-desktop.css', containers: 1200, grid: { gutters: 50 } },
+			'1000px':	{ range: '737-1200', href: '/css/style-1000px.css', containers: 960, grid: { gutters: 25 }, viewport: { width: 1024 } },
+			'mobile':	{ range: '-736', href: '/css/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 20 }, viewport: { scalable: false } }
 		},
 		plugins: {
 			layers: {
