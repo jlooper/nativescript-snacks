@@ -1,11 +1,21 @@
-<!-- Header -->
 <div id="header-wrapper">
     <div id="header">
-
+        
+       
         <!-- Logo -->
         <img src="{{site.logo | prepend: site.baseurl}}"/>
             
         <h1><a href="/">{{ site.title }}</a></h1>
+            
+        <nav id="nav">
+            <ul>
+                <li class="current" style="white-space: nowrap;"><a href="">New</a></li>
+                <li style="white-space: nowrap;"><a href="">Requests</a></li>
+                <li style="white-space: nowrap;"><a href="">Archive</a></li>
+                <li style="white-space: nowrap;"><a href="">Search</a></li>
+            </ul>
+        </nav>
+
         
         {% if page.url == "/index.html" or page.url == "/" %}
         <!-- Banner -->
@@ -16,6 +26,8 @@
                 </header>
             </section>
         {% endif %}
+        
+         
 
     </div>
 </div>
