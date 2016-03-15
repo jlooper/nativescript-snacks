@@ -9,10 +9,11 @@
             
         <nav id="nav">
             <ul>
-                <li class="current" style="white-space: nowrap;"><a href="">New</a></li>
-                <li style="white-space: nowrap;"><a href="">Requests</a></li>
-                <li style="white-space: nowrap;"><a href="">Archive</a></li>
-                <li style="white-space: nowrap;"><a href="">Search</a></li>
+                <li {% if page.url == "/new.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/new.html">New</a></li>
+                <li style="white-space: nowrap;"><a href="http://github.com/jlooper/nativescript-snacks/issues">Requests</a></li>
+                <li {% if page.url == "/contribute.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/contribute.html">Contribute</a></li>
+                <li {% if page.url == "/archive.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/archive.html">Archive</a></li>
+                <li {% if page.url == "/search.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/search.html">Search</a></li>
             </ul>
         </nav>
 
@@ -25,9 +26,15 @@
                     <p>...all about NativeScript!</p>
                 </header>
             </section>
+        
+        {% else %}
+        
+        <section id="bar">
+           
+        </section>
+        
         {% endif %}
         
-         
 
     </div>
 </div>

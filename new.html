@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+
+<div class="row">
+    <div class="12u">
+
+        <!-- Snacks -->
+            <section>
+                <header class="major">
+                    <h2>Freshest Snacks</h2>
+                </header>
+                    <div class="row">
+                        {% for post in site.posts limit:6%}
+                            <div class="6u">
+                                <section class="box">
+                                    <header class="minor">
+                                        <h3>{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}, {{ post.date | date: "%Y" }} - {{post.title}}</h3>
+                                    </header>                            
+                                    <span class="image featured">                            
+                                        <div class="videoWrapper">
+                                            {{post.content}}
+                                        </div>
+                                    </span> 
+                                    <p>{{post.shortdesc}}</p>         
+                                </section>
+                            </div>
+                        {% endfor %}
+                </div>           
+            </section>
+
+    </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating Custom XML Tags in NativeScript"
+title:  "Creating Custom XML Tags"
 date:   2016-02-17
 categories: more
 tags: 
