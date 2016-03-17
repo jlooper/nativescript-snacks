@@ -3,7 +3,7 @@ layout: post
 title:  "Debugging with Visual Studio Code"
 date:   2016-03-11
 categories: more
-image: images/snack3.jpg
+image: /images/snack3.jpg
 tags: 
     - debugging
     - vscode

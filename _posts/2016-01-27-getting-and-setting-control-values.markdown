@@ -3,7 +3,7 @@ layout: post
 title:  "Getting And Setting Control Values"
 date:   2016-01-27
 categories: more
-image: images/snack3.jpg
+image: /images/snack3.jpg
 tags: 
     - control values
     - modules

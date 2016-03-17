@@ -3,7 +3,7 @@ layout: post
 title:  "Styling NativeScript Apps"
 date:   2016-02-12
 categories: more
-image: images/snack6.jpg
+image: /images/snack6.jpg
 tags: 
     - styles
     - css

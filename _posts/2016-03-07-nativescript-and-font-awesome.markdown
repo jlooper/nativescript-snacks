@@ -3,7 +3,7 @@ layout: post
 title:  "NativeScript And Font Awesome"
 date:   2016-03-07
 categories: more
-image: images/snack4.jpg
+image: /images/snack4.jpg
 tags: 
     - font-awesome
     - icon

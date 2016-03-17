@@ -3,7 +3,7 @@ layout: post
 title:  "Creating Custom XML Tags"
 date:   2016-02-17
 categories: more
-image: images/snack5.jpg
+image: /images/snack5.jpg
 tags: 
     - xml
     - modules

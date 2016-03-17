@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding Paths"
 date:   2016-01-26
 categories: more
-image: images/snack4.jpg
+image: /images/snack4.jpg
 tags: 
     - paths
 shortdesc: A short video on understanding how to reference modules / files in NativeScript and understanding the difference between node_modules and project files.
