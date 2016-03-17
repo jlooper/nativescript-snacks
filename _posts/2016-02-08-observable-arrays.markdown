@@ -3,6 +3,7 @@ layout: post
 title:  "Using Observable Arrays"
 date:   2016-02-08
 categories: more
+image: images/snack1.jpg
 tags: 
     - observable-arrays
     - observables

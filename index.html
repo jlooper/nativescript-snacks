@@ -12,24 +12,36 @@ layout: default
                     <h2>Featured Snacks</h2>
                 </header>
                 <div class="row">
-                {% for snack in site.data.snacks %}
-                    <div class="6u">
-                        <section class="box">
-                            <header class="minor">
-                                <h3>{{snack.name}}</h3>
-                                 <img class="responsive" src="{{snack.image | prepend: site.baseurl}}"/>
-                            </header>                            
-                            <span class="image featured">                            
-                                <div class="videoWrapper">
-                                    <iframe width="560" height="315" src="{{snack.video}}" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            </span> 
-                            <p>{{snack.description}}</p>         
-                        </section>
-                    </div>
-                {% endfor %}
-                </div>
+                        {% for post in paginator.posts %}                                             
+                            <div class="6u">
+                                <section class="box">
+                                    <header class="minor">
+                                        <h3>{{post.title}}</h3>
+                                        <img src='{{post.image | prepend: site.baseurl }}'/>
+                                    </header>                            
+                                    <span class="image featured">                            
+                                        <div class="videoWrapper">
+                                            {{post.content}}
+                                        </div>
+                                    </span> 
+                                    <p>{{post.shortdesc}}</p>         
+                                </section>
+                            </div>
+                        {% endfor %}
+                </div>    
             </section>
-
-    </div>
+            
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+            {% else %}
+                <span class="previous">Previous</span>
+            {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+            {% else %}
+                <span class="next ">Next</span>
+            {% endif %}
+    </div>  
+    
 </div>
