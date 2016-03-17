@@ -17,7 +17,7 @@ layout: default
                                 <section class="box">
                                     <header class="minor">
                                         <h3>{{post.title}}</h3>
-                                        <img src='{{post.image | prepend: site.baseurl }}'/>
+                                        <img src='{{ post.image | prepend: site.baseurl }}'/>
                                     </header>                            
                                     <span class="image featured">                            
                                         <div class="videoWrapper">
@@ -29,19 +29,23 @@ layout: default
                             </div>
                         {% endfor %}
                 </div>    
-            </section>
-            
-            {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-            {% else %}
-                <span class="previous">Previous</span>
-            {% endif %}
-            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-            {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-            {% else %}
-                <span class="next ">Next</span>
-            {% endif %}
+            </section>                    
     </div>  
     
+</div>
+
+ <div class="row">
+            <div class="12u">               
+                 {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                    {% else %}
+                        <span class="previous">Previous</span>
+                    {% endif %}
+                    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                    {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                    {% else %}
+                        <span class="next ">Next</span>
+                  {% endif %}
+            </div>
 </div>
