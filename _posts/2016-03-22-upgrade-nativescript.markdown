@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Upgrade and Update your NativeScript Installation"
+title:  "Upgrade your NativeScript Installation"
 date:   2016-03-22
 categories: more
 image: /images/snack2.jpg
