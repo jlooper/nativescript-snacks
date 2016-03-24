@@ -38,6 +38,10 @@
 		color: #5d5d5d;
 	}
     
+    .large-text{
+            font-size: x-large;
+    }
+    
     /*search*/
       #search-container {
         max-width: 40em;
