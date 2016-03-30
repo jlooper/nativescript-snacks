@@ -38,6 +38,27 @@
 		color: #5d5d5d;
 	}
     
+    .large-text{
+            font-size: x-large;
+    }
+    
+    /*search*/
+      #search-container {
+        max-width: 40em;
+        padding: 1em;
+        margin: 1em auto;
+        border: 1px solid lightgrey;
+      }
+      #search-input {
+        display: inline-block;
+        padding: .5em;
+        width: 100%;
+        font-size: 0.8em;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    
     /*video*/
     .videoWrapper {
         position: relative;
@@ -294,7 +315,7 @@
 
 				header.major h2
 				{
-					background: #fff;
+					background: #f7f7f7;
 					position: relative;
 					top: -0.65em;
 					display: inline;
@@ -738,6 +759,16 @@
 				margin: 0;
 			}
 
+
+/*********************************************************************************/
+/* Bar                                                                        */
+/*********************************************************************************/
+
+	#bar
+	{
+		margin:10px;
+	}
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
@@ -871,6 +902,16 @@
 /* Added                                                                     */
 /*********************************************************************************/
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+video {
+  width: 500px;
+}
+
 /*article image header */
 
 article.post .image {
@@ -878,4 +919,63 @@ article.post .image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+/* snippets */
+.snippetWrapper {
+  position: relative;
+}
+
+/* tabs */
+.tabs {
+  width: 100%;
+  float: none;
+  list-style: none;
+  position: relative;
+  text-align: left;
+  height: 372px;
+  overflow: hidden;
+}
+.tabs li {
+  float: left;
+  display: block;
+}
+.tabs input[type="radio"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.tabs label {
+  display: block;
+  padding: 6px 18px;
+  font-size: 18px;
+  font-weight: normal;
+  background: #f3f3f3;
+  cursor: pointer;
+  position: relative;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  background: #f3f3f3;
+}
+.tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: auto;
+  width: 100%;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  height: 330px;
+}
+.tabs [id^="tab"]:checked + label {
+  top: 0;
+  background: #d52349;
+  color:#fff;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block;
 }

@@ -53,7 +53,14 @@
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
-			});
+      });
+
+    // tabs - prevent label jump
+    $('label[for]').on('click', function (e) {
+        var target = window[this.htmlFor];
+        target.checked = !target.checked;
+        e.preventDefault();
+    });
 
 		// Forms (IE<10).
 		/*	var $form = $('form');

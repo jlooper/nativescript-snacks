@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How to’s and Getting Started Video Tutorials to Learn NativeScript for Cross-Platform Mobile App Development – NativeScript Snacks</title>
+    <description>NativeScript Snacks are bite-sized videos that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
+</description>
+    <link>http://www.nativescriptsnacks.com/</link>
+    <atom:link href="http://www.nativescriptsnacks.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 30 Mar 2016 14:19:56 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2016 14:19:56 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Theme Switching in NativeScript</title>
+        <description>Ben Elliott shows us how to add theme switching to your NativeScript app.</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/24/theme-switcher.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/24/theme-switcher.html</guid>
+        
+        <category>css</category>
+        
+        <category>theme</category>
+        
+        <category>styling</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Chrome Tabs for Android</title>
+        <description>Brad Martin gives you the lowdown on Chrome tabs, which launch web content on Android without relying on a webview.</description>
+        <pubDate>Wed, 23 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/23/chrome-custom-tabs.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/23/chrome-custom-tabs.html</guid>
+        
+        <category>android</category>
+        
+        <category>chrome</category>
+        
+        <category>tabs</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Upgrade your NativeScript Installation</title>
+        <description>Upgrade your NativeScript installation and update your app to support it. Short and sweet.</description>
+        <pubDate>Tue, 22 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/22/upgrade-nativescript.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/22/upgrade-nativescript.html</guid>
+        
+        <category>upgrade</category>
+        
+        <category>update</category>
+        
+        <category>install</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Animations In NativeScript</title>
+        <description>In this episode, TJ Vantoll shows you how to easily create and control animations and animation timings via the NativeScript animate API.</description>
+        <pubDate>Tue, 15 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/15/animations.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/15/animations.html</guid>
+        
+        <category>animations</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Sass and Less in NativeScript</title>
+        <description>In this episode, Todd Anglin goes over how to add built-in support for Sass and Less to your NativeScript project.</description>
+        <pubDate>Mon, 14 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/14/less-sass.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/14/less-sass.html</guid>
+        
+        <category>sass</category>
+        
+        <category>less</category>
+        
+        <category>css</category>
+        
+        <category>styles</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Debugging with Visual Studio Code</title>
+        <description>In this episode, I’ll show you how to install the NativeScript extension for Visual Studio Code, and how you can debug your TypeScript applications in real time.</description>
+        <pubDate>Fri, 11 Mar 2016 00:00:00 -0800</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/11/debugging-with-vscode.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/11/debugging-with-vscode.html</guid>
+        
+        <category>debugging</category>
+        
+        <category>vscode</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>NativeScript And Font Awesome</title>
+        <description>In this short video, I’ll show you how to add the Font Awesome icon font to a NativeScript application, how to search for icons you need, and the right escape sequences to get those icons working in NativeScript.</description>
+        <pubDate>Mon, 07 Mar 2016 00:00:00 -0800</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/07/nativescript-and-font-awesome.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/07/nativescript-and-font-awesome.html</guid>
+        
+        <category>font-awesome</category>
+        
+        <category>icon</category>
+        
+        <category>font</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating Custom XML Tags</title>
+        <description>In this video, I’ll show you how to create custom XML tags in NativeScript. This is very useful for creating re-usable components, and breaking up your markup into smaller, more modular files.</description>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/02/17/creating-custom-xml-tags.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/02/17/creating-custom-xml-tags.html</guid>
+        
+        <category>xml</category>
+        
+        <category>modules</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Styling NativeScript Apps</title>
+        <description>A look at how to style NativeScript apps so they look beautimus. Based on the wonderful wonderful tutorial called &#39;NativeScript Beers&#39;</description>
+        <pubDate>Fri, 12 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/02/12/styling.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/02/12/styling.html</guid>
+        
+        <category>styles</category>
+        
+        <category>css</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Observable Arrays</title>
+        <description>How to use the Observable Array in NativeScript to create collections of items that are bound to a user interface.</description>
+        <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/02/08/observable-arrays.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/02/08/observable-arrays.html</guid>
+        
+        <category>observable-arrays</category>
+        
+        <category>observables</category>
+        
+        <category>arrays</category>
+        
+        <category>binding</category>
+        
+        <category>collections</category>
+        
+        <category>lists</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+  </channel>
+</rss>
