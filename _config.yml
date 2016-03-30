@@ -12,3 +12,5 @@ paginate: 6
 markdown: kramdown
 gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
+collections:
+- snippets

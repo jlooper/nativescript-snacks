@@ -2,9 +2,10 @@
 <html>
 
   <head>
-    <title>Creating Custom XML Tags</title>
+    <title>How to’s and Getting Started Video Tutorials to Learn NativeScript for Cross-Platform Mobile App Development – NativeScript Snacks</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
+    <meta name="description" content="NativeScript Snacks are bite-sized videos that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
+" />
     <meta name="keywords" content="nativescript,telerik,video,tutorial,mobile apps,development,javascript,css,xml,typescript,AngularJS" />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/css/skel.css" />
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/style-desktop.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  <link rel="canonical" href="http://www.nativescriptsnacks.com/more/2016/02/17/creating-custom-xml-tags.html">
+  <link rel="canonical" href="http://www.nativescriptsnacks.com/snippets.html">
   <link rel="alternate" type="application/rss+xml" title="How to’s and Getting Started Video Tutorials to Learn NativeScript for Cross-Platform Mobile App Development – NativeScript Snacks" href="http://www.nativescriptsnacks.com/feed.xml" />
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,7 +41,7 @@
         <nav id="nav">
             <ul>
                 <li  style="white-space: nowrap;"><a href="/new.html">New</a></li>
-                <li  style="white-space: nowrap;"><a href="/snippets.html">Snippets</a></li>
+                <li  class="current"  style="white-space: nowrap;"><a href="/snippets.html">Snippets</a></li>
                 <li style="white-space: nowrap;"><a href="http://github.com/jlooper/nativescript-snacks/issues">Request a Tutorial</a></li>
                 <li  style="white-space: nowrap;"><a href="/contribute.html">Contribute a Tutorial</a></li>
                 <li  style="white-space: nowrap;"><a href="/search.html">Search</a></li>
@@ -66,15 +67,87 @@
     <!-- Main -->
     <div id="main-wrapper">
         <div class="container">
-        <!-- Content -->
-<article class="box post">
-    <header>
-        <h2>Creating Custom XML Tags</h2>
-        <p>In this video, I’ll show you how to create custom XML tags in NativeScript. This is very useful for creating re-usable components, and breaking up your markup into smaller, more modular files.</p>
-    </header>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWTJej6HWE0" frameborder="0" allowfullscreen=""></iframe>
+        <div class="row">
+    <div class="12u">
 
-</article>
+        <!-- Snacks -->
+            <section>
+                <header class="major">
+                    <h2>Snippets</h2>
+                </header>
+                    <div class="row">
+                        
+                            <div class="6u">
+                                <section class="box">
+                                    <header class="minor">
+                                        <h3>Mar 30, 2016 - Wire up a SegmentedBar</h3>
+                                    </header>                            
+                                    <span class="image featured">                            
+                                        <div class="snippetWrapper">
+                                            <ul class="tabs clearfix">
+  <li>
+    <input type="radio" name="tabs" id="tab1" checked="" />
+    <label for="tab1">Preview</label>
+    <div id="tab-content1" class="tab-content">
+      <video controls="" autoplay="" loop="true" poster="/videos/segmentedbar/thumb.png">
+        <source type="video/mp4" src="/videos/segmentedbar/1.mp4" />
+        <source type="video/webm" src="/videos/segmentedbar/2.webm" />
+        <source type="video/ogv" src="/videos/segmentedbar/3.ogv" />
+      </video>
+    </div>
+  </li>
+  <li>
+    <input type="radio" name="tabs" id="tab2" />
+    <label for="tab2">XML</label>
+    <div id="tab-content1" class="tab-content">
+      <pre class="language-html">
+<code>&lt;SegementedBar items="&lcub;&lcub;items&rcub;&rcub;" selectedIndexChanged="&lcub;&lcub;selectSegment&rcub;&rcub;" /&gt;
+&lt;Label text="&lcub;&lcub;selectedItem&rcub;&rcub;" /&gt;
+</code>
+      </pre>
+    </div>
+  </li>
+  <li>
+    <input type="radio" name="tabs" id="tab3" />
+    <label for="tab3">TypeScript</label>
+    <div id="tab-content3" class="tab-content">
+      <pre class="language-typescript">
+<code>import {Observable} from 'data/observable';
+
+export class Snippet extends Observable {
+  public selectedItem: string;
+  public items: Array<any> = [
+    { title: 'Strawberry' },
+    { title: 'Blueberry' },
+    { title: 'Raspberry' }
+  ];
+
+  constructor() {
+    super();  
+    this.selectedItem = `Selected: ${this.items[0].title}`; 
+  }
+
+  public selectSegment(e: any) {
+    this.set('selectedItem', `Selected: ${this.items[e.newIndex].title}`);  
+  }  
+}
+      
+    
+  
+
+</any></code></pre></div></li></ul>
+
+                                        </div>
+                                    </span> 
+                                    <p>Nathan Walker shows us how to wire up a SegmentedBar.</p>         
+                                </section>
+                            </div>
+                        
+                </div>           
+            </section>
+
+    </div>
+</div>
         </div>
     </div>
 

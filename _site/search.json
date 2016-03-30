@@ -1,0 +1,129 @@
+[
+  
+    {
+      "title"    : "Theme Switching in NativeScript",
+      "shortdesc"    : "Ben Elliott shows us how to add theme switching to your NativeScript app.",
+      "category" : "",
+      "tags"     : "css, theme, styling",
+      "url"      : "/more/2016/03/24/theme-switcher.html",
+      "date"     : "Mar 24,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Using Chrome Tabs for Android",
+      "shortdesc"    : "Brad Martin gives you the lowdown on Chrome tabs, which launch web content on Android without relying on a webview.",
+      "category" : "",
+      "tags"     : "android, chrome, tabs",
+      "url"      : "/more/2016/03/23/chrome-custom-tabs.html",
+      "date"     : "Mar 23,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Upgrade your NativeScript Installation",
+      "shortdesc"    : "Upgrade your NativeScript installation and update your app to support it. Short and sweet.",
+      "category" : "",
+      "tags"     : "upgrade, update, install",
+      "url"      : "/more/2016/03/22/upgrade-nativescript.html",
+      "date"     : "Mar 22,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Animations In NativeScript",
+      "shortdesc"    : "In this episode, TJ Vantoll shows you how to easily create and control animations and animation timings via the NativeScript animate API.",
+      "category" : "",
+      "tags"     : "animations",
+      "url"      : "/more/2016/03/15/animations.html",
+      "date"     : "Mar 15,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Using Sass and Less in NativeScript",
+      "shortdesc"    : "In this episode, Todd Anglin goes over how to add built-in support for Sass and Less to your NativeScript project.",
+      "category" : "",
+      "tags"     : "sass, less, css, styles",
+      "url"      : "/more/2016/03/14/less-sass.html",
+      "date"     : "Mar 14,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Debugging with Visual Studio Code",
+      "shortdesc"    : "In this episode, I’ll show you how to install the NativeScript extension for Visual Studio Code, and how you can debug your TypeScript applications in real time.",
+      "category" : "",
+      "tags"     : "debugging, vscode",
+      "url"      : "/more/2016/03/11/debugging-with-vscode.html",
+      "date"     : "Mar 11,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "NativeScript And Font Awesome",
+      "shortdesc"    : "In this short video, I’ll show you how to add the Font Awesome icon font to a NativeScript application, how to search for icons you need, and the right escape sequences to get those icons working in NativeScript.",
+      "category" : "",
+      "tags"     : "font-awesome, icon, font",
+      "url"      : "/more/2016/03/07/nativescript-and-font-awesome.html",
+      "date"     : "Mar 7,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Creating Custom XML Tags",
+      "shortdesc"    : "In this video, I’ll show you how to create custom XML tags in NativeScript. This is very useful for creating re-usable components, and breaking up your markup into smaller, more modular files.",
+      "category" : "",
+      "tags"     : "xml, modules",
+      "url"      : "/more/2016/02/17/creating-custom-xml-tags.html",
+      "date"     : "Feb 17,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Styling NativeScript Apps",
+      "shortdesc"    : "A look at how to style NativeScript apps so they look beautimus. Based on the wonderful wonderful tutorial called &#39;NativeScript Beers&#39;",
+      "category" : "",
+      "tags"     : "styles, css",
+      "url"      : "/more/2016/02/12/styling.html",
+      "date"     : "Feb 12,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Using Observable Arrays",
+      "shortdesc"    : "How to use the Observable Array in NativeScript to create collections of items that are bound to a user interface.",
+      "category" : "",
+      "tags"     : "observable-arrays, observables, arrays, binding, collections, lists",
+      "url"      : "/more/2016/02/08/observable-arrays.html",
+      "date"     : "Feb 8,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Observables in NativeScript",
+      "shortdesc"    : "An introduction to Observables In NativeScript",
+      "category" : "",
+      "tags"     : "observables",
+      "url"      : "/more/2016/01/28/observables.html",
+      "date"     : "Jan 28,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Getting And Setting Control Values",
+      "shortdesc"    : "How to manually get a reference to a control and bind to an event or change a control value.",
+      "category" : "",
+      "tags"     : "control values, modules, binding",
+      "url"      : "/more/2016/01/27/getting-and-setting-control-values.html",
+      "date"     : "Jan 27,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Understanding Paths",
+      "shortdesc"    : "A short video on understanding how to reference modules / files in NativeScript and understanding the difference between node_modules and project files.",
+      "category" : "",
+      "tags"     : "paths",
+      "url"      : "/more/2016/01/26/understanding-paths.html",
+      "date"     : "Jan 26,<br/> 2016"
+    } ,
+  
+    {
+      "title"    : "Using TypeScript with NativeScript",
+      "shortdesc"    : "A quick demo of how to leverage the built-in support for TypeScript in NativeScript 1.5.",
+      "category" : "",
+      "tags"     : "typescript",
+      "url"      : "/more/2016/01/25/using-typescript.html",
+      "date"     : "Jan 25,<br/> 2016"
+    } 
+  
+]
