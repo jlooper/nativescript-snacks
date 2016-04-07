@@ -7,6 +7,6 @@ image: /images/snack1.jpg
 tags: 
     - app
     - remake   
-shortdesc: The TSA spent 47K on an app for TSA agents. How fast can we recreate that app in NativeScript? Let’s find out.
+shortdesc: The TSA spent 47K on a simple app for TSA agents. Let's recreate it!
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QyOlKIOlNFA" frameborder="0" allowfullscreen></iframe>
