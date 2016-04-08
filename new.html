@@ -16,7 +16,7 @@ layout: default
                             <div class="6u">
                                 <section class="box">
                                     <header class="minor">
-                                        <h3>{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}, {{ post.date | date: "%Y" }} - {{post.title}}</h3>
+                                        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}, {{ post.date | date: "%Y" }} - {{post.title}}</a></h3>
                                     </header>                            
                                     <span class="image featured">                            
                                         <div class="videoWrapper">
