@@ -1,9 +1,9 @@
 ---
-layout: snippet
+layout: post
 title:  "Wire up a SegmentedBar"
 date:   2016-03-30
-categories: more
-image: /images/snack6.jpg
+categories: snippets
+image: /videos/segmentedbar/thumb.png
 tags: 
     - snippet
 shortdesc: Nathan Walker shows us how to wire up a SegmentedBar. 
@@ -25,7 +25,7 @@ shortdesc: Nathan Walker shows us how to wire up a SegmentedBar.
     <label for="tab2">XML</label>
     <div id="tab-content1" class="tab-content">
       <pre class="language-html">
-<code>&lt;SegementedBar items="&lcub;&lcub;items&rcub;&rcub;" selectedIndexChanged="&lcub;&lcub;selectSegment&rcub;&rcub;" /&gt;
+<code>&lt;SegmentedBar items="&lcub;&lcub;items&rcub;&rcub;" selectedIndexChanged="&lcub;&lcub;selectSegment&rcub;&rcub;" /&gt;
 &lt;Label text="&lcub;&lcub;selectedItem&rcub;&rcub;" /&gt;
 </code>
       </pre>

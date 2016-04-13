@@ -2,31 +2,28 @@
 layout: default
 ---
 
-
 <div class="row">
-    <div class="12u">
-
-        <!-- Snacks -->
+    <div class="12u">      
             <section>
                 <header class="major">
                     <h2>Snippets</h2>
                 </header>
                     <div class="row">
-                        {% for snippet in site.snippets limit:6%}
+                       {% for post in site.posts%}
+                          {% if post.categories contains "snippets" %}
                             <div class="6u">
-                                <section class="box">
+                                <section class="box snippetWrapper">
                                     <header class="minor">
-                                        <h3>{{ snippet.date | date: "%b" }} {{ snippet.date | date: "%d" }}, {{ snippet.date | date: "%Y" }} - {{snippet.title}}</h3>
+                                        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
                                     </header>                            
-                                    <span class="image featured">                            
-                                        <div class="snippetWrapper">
-                                            {{snippet.content}}
-                                        </div>
+                                    <span class="image featured tabs">                            
+                                            <img src="{{post.image}}"/>
                                     </span> 
-                                    <p>{{snippet.shortdesc}}</p>         
+                                    <a href="{{ post.url | prepend: site.baseurl }}">get the code!</a>         
                                 </section>
                             </div>
-                        {% endfor %}
+                        {% endif %}
+                      {% endfor %}
                 </div>           
             </section>
 

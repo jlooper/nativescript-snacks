@@ -12,21 +12,23 @@ layout: default
                     <h2>Featured Snacks</h2>
                 </header>
                 <div class="row">
-                        {% for post in paginator.posts %}                                             
-                            <div class="6u">
-                                <section class="box">
-                                    <header class="minor">
-                                        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
-                                        <img src='{{ post.image | prepend: site.baseurl }}'/>
-                                    </header>                            
-                                    <span class="image featured">                            
-                                        <div class="videoWrapper">
-                                            {{post.content}}
-                                        </div>
-                                    </span> 
-                                    <p>{{post.shortdesc}}</p>         
-                                </section>
-                            </div>
+                        {% for post in paginator.posts %}
+                            {% if post.categories contains "more" %}                                             
+                                <div class="6u">
+                                    <section class="box snippetWrapper">
+                                        <header class="minor">
+                                            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
+                                            <img src='{{ post.image | prepend: site.baseurl }}'/>
+                                        </header>                            
+                                        <span class="image featured tabs">                            
+                                            <div class="videoWrapper">
+                                                {{post.content}}
+                                            </div>
+                                        </span> 
+                                        <p>{{post.shortdesc}}</p>         
+                                    </section>
+                                </div>
+                            {% endif %}
                         {% endfor %}
                 </div>    
             </section>                    

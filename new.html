@@ -13,12 +13,13 @@ layout: default
                 </header>
                     <div class="row">
                         {% for post in site.posts limit:6%}
+                            {% if post.categories contains "more" %}
                             <div class="6u">
-                                <section class="box">
+                                <section class="box snippetWrapper">
                                     <header class="minor">
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b" }} {{ post.date | date: "%d" }}, {{ post.date | date: "%Y" }} - {{post.title}}</a></h3>
                                     </header>                            
-                                    <span class="image featured">                            
+                                    <span class="image featured tabs">                            
                                         <div class="videoWrapper">
                                             {{post.content}}
                                         </div>
@@ -26,6 +27,7 @@ layout: default
                                     <p>{{post.shortdesc}}</p>         
                                 </section>
                             </div>
+                            {% endif %}
                         {% endfor %}
                 </div>           
             </section>

@@ -924,6 +924,8 @@ article.post .image {
 /* snippets */
 .snippetWrapper {
   position: relative;
+  height: 700px;
+  overflow: hidden;
 }
 
 /* tabs */
