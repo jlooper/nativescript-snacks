@@ -12,11 +12,11 @@ layout: default
                        {% for post in site.posts%}
                           {% if post.categories contains "snippets" %}
                             <div class="6u">
-                                <section class="box snippetWrapper">
+                                <section class="box snippetWrapper">                                                                     
                                     <header class="minor">
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
                                     </header>                            
-                                    <span class="image featured tabs">                            
+                                    <span class="image centered">                            
                                             <img src="{{post.image}}"/>
                                     </span> 
                                     <a href="{{ post.url | prepend: site.baseurl }}">get the code!</a>         
