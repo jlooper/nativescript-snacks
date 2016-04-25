@@ -16,7 +16,7 @@ layout: default
                         {% for post in paginator.posts %}
                             {% assign counter = counter | plus: 1 %}
                             {% if counter > 6 %}
-                                {% assign counter = 0 %}
+                                {% assign counter = 1 %}
                             {% endif %}
                             <div class="6u">
                                 <section class="box snippetWrapper">
