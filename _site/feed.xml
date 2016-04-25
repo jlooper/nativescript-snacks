@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How to’s and Getting Started Video Tutorials to Learn NativeScript for Cross-Platform Mobile App Development – NativeScript Snacks</title>
+    <description>NativeScript Snacks are bite-sized videos that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
+</description>
+    <link>http://www.nativescriptsnacks.com/</link>
+    <atom:link href="http://www.nativescriptsnacks.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 Apr 2016 16:13:45 -0400</pubDate>
+    <lastBuildDate>Thu, 21 Apr 2016 16:13:45 -0400</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>A List with Thumbnails</title>
+        <description>Burke Holland&#39;s Thumbnail List.</description>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/snippets/2016/04/13/thumbnail-list.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/snippets/2016/04/13/thumbnail-list.html</guid>
+        
+        <category>snippet</category>
+        
+        <category>thumbnail list</category>
+        
+        <category>list</category>
+        
+        
+        <category>snippets</category>
+        
+      </item>
+    
+      <item>
+        <title>A Simple List</title>
+        <description>A simple, clean list by Burke Holland.</description>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/snippets/2016/04/13/simple-list.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/snippets/2016/04/13/simple-list.html</guid>
+        
+        <category>snippet</category>
+        
+        <category>simple list</category>
+        
+        <category>list</category>
+        
+        
+        <category>snippets</category>
+        
+      </item>
+    
+      <item>
+        <title>Create an Inset List</title>
+        <description>Burke Holland&#39;s Inset List.</description>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/snippets/2016/04/13/inset-list.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/snippets/2016/04/13/inset-list.html</guid>
+        
+        <category>snippet</category>
+        
+        <category>inset list</category>
+        
+        <category>list</category>
+        
+        
+        <category>snippets</category>
+        
+      </item>
+    
+      <item>
+        <title>Installing Android And NativeScript On Ubuntu</title>
+        <description>Nic Raboy shows us how to start developing NativeScript apps on an Ubuntu computer.</description>
+        <pubDate>Sat, 09 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/04/09/using-ubuntu.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/04/09/using-ubuntu.html</guid>
+        
+        <category>ubuntu</category>
+        
+        <category>linux</category>
+        
+        <category>script</category>
+        
+        <category>configuration</category>
+        
+        <category>setup</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Using SQLite in a NativeScript App</title>
+        <description>Nic Raboy shows us how to use of SQLite instead of the application settings module.</description>
+        <pubDate>Fri, 08 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/04/08/using-sqlite-databases.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/04/08/using-sqlite-databases.html</guid>
+        
+        <category>app</category>
+        
+        <category>remake</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Recreating The TSA App With NativeScript</title>
+        <description>The TSA spent 47K on a simple app for TSA agents. Let&#39;s recreate it!</description>
+        <pubDate>Thu, 07 Apr 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/04/07/tsa-arrow-app-remake.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/04/07/tsa-arrow-app-remake.html</guid>
+        
+        <category>app</category>
+        
+        <category>remake</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Wire up a SegmentedBar</title>
+        <description>Nathan Walker shows us how to wire up a SegmentedBar.</description>
+        <pubDate>Wed, 30 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/snippets/2016/03/30/segmented-bar-snippet.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/snippets/2016/03/30/segmented-bar-snippet.html</guid>
+        
+        <category>snippet</category>
+        
+        
+        <category>snippets</category>
+        
+      </item>
+    
+      <item>
+        <title>Theme Switching in NativeScript</title>
+        <description>Ben Elliott shows us how to add theme switching to your NativeScript app.</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/24/theme-switcher.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/24/theme-switcher.html</guid>
+        
+        <category>css</category>
+        
+        <category>theme</category>
+        
+        <category>styling</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Using Chrome Tabs for Android</title>
+        <description>Brad Martin gives you the lowdown on Chrome tabs, which launch web content on Android without relying on a webview.</description>
+        <pubDate>Wed, 23 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/23/chrome-custom-tabs.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/23/chrome-custom-tabs.html</guid>
+        
+        <category>android</category>
+        
+        <category>chrome</category>
+        
+        <category>tabs</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+      <item>
+        <title>Upgrade your NativeScript Installation</title>
+        <description>Upgrade your NativeScript installation and update your app to support it. Short and sweet.</description>
+        <pubDate>Tue, 22 Mar 2016 00:00:00 -0400</pubDate>
+        <link>http://www.nativescriptsnacks.com/more/2016/03/22/upgrade-nativescript.html</link>
+        <guid isPermaLink="true">http://www.nativescriptsnacks.com/more/2016/03/22/upgrade-nativescript.html</guid>
+        
+        <category>upgrade</category>
+        
+        <category>update</category>
+        
+        <category>install</category>
+        
+        
+        <category>more</category>
+        
+      </item>
+    
+  </channel>
+</rss>
