@@ -1,16 +1,19 @@
 <div id="header-wrapper">
     <div id="header">
-        
-       
-        <!-- Logo -->
-        <img src="{{site.logo | prepend: site.baseurl}}"/>
-            
-        <h1><a href="/">NativeScript Snacks</a></h1>
+        <!-- Banner -->
+        <section id="banner">
+            <header>
+                <!-- Logo -->
+                <img src="{{site.logo | prepend: site.baseurl}}"/>
+                    
+                <h1><a href="/">NativeScript Snacks</a></h1>
+            </header>
+        </section>
             
         <nav id="nav">
             <ul>
 
-                <li {% if page.url == "/new.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/video.html">Video Tutorials</a></li>
+                <li {% if page.url == "/video.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/video.html">Video Tutorials</a></li>
                 <li {% if page.url == "/snippets.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/snippets.html">Code Snippets</a></li>
                 <li style="white-space: nowrap;"><a href="http://github.com/jlooper/nativescript-snacks/issues">Request a Tutorial</a></li>
                 <li {% if page.url == "/contribute.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/contribute.html">Contribute</a></li>
@@ -19,25 +22,6 @@
                 
             </ul>
         </nav>
-
-        
-        {% if page.url == "/index.html" or page.url == "/" %}
-        <!-- Banner -->
-            <section id="banner">
-                <header>
-                    <h2>Bite-Sized Video Tutorials</h2>
-                    <p>...all about NativeScript!</p>
-                </header>
-            </section>
-        
-        {% else %}
-        
-        <section id="bar">
-           
-        </section>
-        
-        {% endif %}
-        
 
     </div>
 </div>

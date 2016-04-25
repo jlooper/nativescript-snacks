@@ -148,12 +148,12 @@
 
 	#header-wrapper
 	{
-		padding: 4.5em 0 0.1em 0;
+		padding: 0em 0 0.1em 0;
 	}
 
 	#main-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 3em 0 4em 0;
 	}
 
 	#footer-wrapper
@@ -320,14 +320,15 @@
 	#banner
 	{
 		position: relative;
-		padding: 4em 0;
-		margin: 4em 0 0 0;
+		padding: 1em 0;
+		margin: 0em 0 0 0;
 	}
 	
 		#banner header
 		{
 			display: inline-block;
-			padding: 2.5em 5em;
+			padding: 1.5em 5em 0 5em;
+			margin-bottom: 1em;
 			border-radius: 5px;
 		}
 		

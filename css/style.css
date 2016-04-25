@@ -784,8 +784,7 @@
 
 		#banner header
 		{
-			background-color: #252122;
-			background-color: rgba(34,30,31,0.98);
+			background-color: #FFF;
 		}
 		
 			#banner header h2
@@ -826,6 +825,7 @@
 	#main-wrapper
 	{
 		position: relative;
+		padding-top: 1em;
 		background: #f7f7f7; /* url('images/bg02.png'); */
 	}
 
