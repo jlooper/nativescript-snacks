@@ -338,6 +338,50 @@
                 text-align:center;
 			}
 
+    /* ribbon */
+	
+	.ribbon-wrapper-green {
+		width: 85px;
+		height: 88px;
+		overflow: hidden;
+		position: absolute;
+		top: -3px;
+		right: -3px;
+		}
+
+	.ribbon-green {
+		font: bold 15px Sans-Serif;
+		color: #FFF !important;
+		text-align: center;
+		-webkit-transform: rotate(45deg);
+		-moz-transform:    rotate(45deg);
+		-ms-transform:     rotate(45deg);
+		-o-transform:      rotate(45deg);
+		position: relative;
+		padding: 7px 0;
+		left: -5px;
+		top: 15px;
+		width: 120px;
+		background-color: #2DB200;
+		color: #6a6340;
+		}
+
+	.ribbon-green:before, .ribbon-green:after {
+		content: "";
+		border-top:   3px solid #6e8900;   
+		border-left:  3px solid transparent;
+		border-right: 3px solid transparent;
+		position:absolute;
+		bottom: -3px;
+		}
+
+	.ribbon-green:before {
+		left: 0;
+		}
+	.ribbon-green:after {
+		right: 0;
+		}
+
 	/* Button */
 		
 		input[type="button"],
@@ -935,7 +979,7 @@ article.post .image {
   list-style: none;
   position: relative;
   text-align: left;
-  height: 372px;
+  height: 400px;
   overflow: hidden;
 }
 .tabs li {
@@ -971,7 +1015,7 @@ article.post .image {
   position: absolute;
   top: 42px;
   left: 0;
-  height: 330px;
+  height: 400px;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
