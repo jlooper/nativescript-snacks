@@ -20,6 +20,13 @@ layout: default
                             {% endif %}
                             <div class="6u">
                                 <section class="box snippetWrapper">
+                                    <div class="wrapper">
+                                        {% if post.categories contains 'videos' %}
+                                            <div class="ribbon-wrapper-green"><div class="ribbon-green">Video</div></div>
+                                        {% else %}
+                                            <div class="ribbon-wrapper-green"><div class="ribbon-green">Code</div></div>
+                                        {% endif %}
+                                    </div>
                                     <header class="minor">
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
                                         <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">
