@@ -2,7 +2,7 @@
 layout: post
 title:  "Using A Pre-Filled SQLite Database in Your App"
 date:   2016-04-23
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/6HW8S6e1n7c/hqdefault.jpg
 tags: 
     - sqlite
