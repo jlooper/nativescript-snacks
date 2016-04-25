@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #252122;
+		background: #1D2C7F;
 		/* background-image: url('images/bg02.png'); */
 	}
 
@@ -818,8 +818,7 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		background: #1D2C7F;
 	}
 
 	#main-wrapper
