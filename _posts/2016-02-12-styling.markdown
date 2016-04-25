@@ -3,10 +3,10 @@ layout: post
 title:  "Styling NativeScript Apps"
 date:   2016-02-12
 categories: more
-image: /images/snack6.jpg
+image: http://i.ytimg.com/vi/h67lQqFg170/hqdefault.jpg
 tags: 
     - styles
     - css
 shortdesc: A look at how to style NativeScript apps so they look beautimus. Based on the wonderful wonderful tutorial called 'NativeScript Beers'
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h67lQqFg170" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/h67lQqFg170" frameborder="0" allowfullscreen></iframe>
