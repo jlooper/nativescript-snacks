@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting And Setting Control Values"
 date:   2016-01-27
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/Aw0mfm8b7iw/hqdefault.jpg
 tags: 
     - control values

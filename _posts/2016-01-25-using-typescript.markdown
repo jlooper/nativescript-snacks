@@ -2,7 +2,7 @@
 layout: post
 title:  "Using TypeScript with NativeScript"
 date:   2016-01-25
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/5bKwlt-qNac/hqdefault.jpg
 tags: 
     - typescript

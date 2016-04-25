@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Local Notifications"
 date:   2016-04-20
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/5XQvzBQkq2g/hqdefault.jpg
 tags: 
     - local notifications

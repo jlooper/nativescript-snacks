@@ -2,7 +2,7 @@
 layout: post
 title:  "Debugging with Visual Studio Code"
 date:   2016-03-11
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/1e4eFkPxQSw/hqdefault.jpg
 tags: 
     - debugging

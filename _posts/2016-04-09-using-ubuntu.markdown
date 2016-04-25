@@ -2,7 +2,7 @@
 layout: post
 title:  "Installing Android And NativeScript On Ubuntu"
 date:   2016-04-09
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/ct34yoHkhpc/hqdefault.jpg
 tags: 
     - ubuntu

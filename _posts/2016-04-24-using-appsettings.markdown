@@ -2,7 +2,7 @@
 layout: post
 title:  "Using AppSettings Instead of Local Storage"
 date:   2016-04-24
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/c941tBx12G0/hqdefault.jpg
 tags: 
     - appsettings

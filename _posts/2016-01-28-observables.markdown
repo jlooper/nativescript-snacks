@@ -2,7 +2,7 @@
 layout: post
 title:  "Observables in NativeScript"
 date:   2016-01-28
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/_242IqMHmyE/hqdefault.jpg
 tags: 
     - observables

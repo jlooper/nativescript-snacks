@@ -2,7 +2,7 @@
 layout: post
 title:  "Animations In NativeScript"
 date:   2016-03-15
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/YzaTuxpk5Cc/hqdefault.jpg
 tags: 
     - animations

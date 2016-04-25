@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Chrome Tabs for Android"
 date:   2016-03-23
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/LVseK_CZp5g/hqdefault.jpg
 tags: 
     - android

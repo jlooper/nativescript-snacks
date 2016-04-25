@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating Custom XML Tags"
 date:   2016-02-17
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/aWTJej6HWE0/hqdefault.jpg
 tags: 
     - xml

@@ -2,7 +2,7 @@
 layout: post
 title:  "Recreating The TSA App With NativeScript"
 date:   2016-04-07
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/QyOlKIOlNFA/hqdefault.jpg
 tags: 
     - app

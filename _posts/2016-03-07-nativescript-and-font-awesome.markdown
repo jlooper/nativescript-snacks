@@ -2,7 +2,7 @@
 layout: post
 title:  "NativeScript And Font Awesome"
 date:   2016-03-07
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/sKjJwsmng88/hqdefault.jpg
 tags: 
     - font-awesome

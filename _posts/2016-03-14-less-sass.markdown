@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Sass and Less in NativeScript"
 date:   2016-03-14
-categories: more
+categories: videos
 image: http://i.ytimg.com/vi/f4KAkv0JwmQ/hqdefault.jpg
 tags: 
     - sass
