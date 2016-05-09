@@ -1009,8 +1009,8 @@ article.post .image {
   list-style: none;
   position: relative;
   text-align: left;
-  height: 400px;
-  overflow: hidden;
+  height: 600px;
+  
 }
 .tabs li {
   float: left;
@@ -1026,7 +1026,7 @@ article.post .image {
   padding: 6px 18px;
   font-size: 18px;
   font-weight: normal;
-  background: #f3f3f3;
+  background: #CCC;
   cursor: pointer;
   position: relative;
   -moz-transition: all 0.2s ease-in-out;
@@ -1045,7 +1045,7 @@ article.post .image {
   position: absolute;
   top: 42px;
   left: 0;
-  height: 400px;
+  height: 600px;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;
