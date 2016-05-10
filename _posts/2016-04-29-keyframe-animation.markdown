@@ -4,6 +4,7 @@ title:  "CSS Keyframe-based animations"
 date:   2016-04-29
 categories: snippets
 image: /images/keyframe-animations.gif
+author: Jen Looper
 tags: 
     - css
     - keyframe

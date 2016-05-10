@@ -3,6 +3,7 @@ layout: post
 title:  "Using Observable Arrays"
 date:   2016-02-08
 categories: videos
+author: Burke Holland
 image: http://i.ytimg.com/vi/Mt5F1xe4tQQ/hqdefault.jpg
 tags: 
     - observable-arrays

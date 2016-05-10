@@ -3,6 +3,7 @@ layout: post
 title:  "Upgrade your NativeScript Installation"
 date:   2016-03-22
 categories: videos
+author: Jen Looper
 image: http://i.ytimg.com/vi/YDSQQQmPIXg/hqdefault.jpg
 tags: 
     - upgrade

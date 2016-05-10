@@ -3,6 +3,7 @@ layout: post
 title:  "Wire up a SegmentedBar"
 date:   2016-03-30
 categories: snippets
+author: Nathan Walker
 image: /videos/segmentedbar/thumb.png
 tags: 
     - snippet

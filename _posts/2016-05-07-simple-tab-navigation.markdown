@@ -4,6 +4,7 @@ title:  "NativeScript + Angular 2 Tab Navigation"
 date:   2016-05-07
 categories: snippets
 image: /images/tab-nav.gif
+author: Adam Rafeeq
 tags: 
     - tabs
     - navigation

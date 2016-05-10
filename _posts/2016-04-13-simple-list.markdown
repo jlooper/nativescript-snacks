@@ -3,6 +3,7 @@ layout: post
 title:  "A Simple List"
 date:   2016-04-13
 categories: snippets
+author: Burke Holland
 image: /images/simple-list.png
 tags: 
     - snippet

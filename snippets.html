@@ -9,11 +9,18 @@ layout: default
                     <h2>Snippets</h2>
                 </header>
                     <div class="row">
-                       {% for post in site.categories.snippets %}
+                       {% assign counter = 0 %}
+                        {% for post in site.categories.snippets %}
+                           {% assign counter = counter | plus: 1 %}
+                            {% if counter > 6 %}
+                                {% assign counter = 1 %}
+                            {% endif %}
                             <div class="6u">
                                 <section class="box snippetWrapper">                                                                     
                                     <header class="minor">
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
+                                        <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">                                        
+                                        <h4>by {{post.author}}</h4>
                                     </header>                            
                                     <span class="image centered">                            
                                             <img src="{{post.image}}"/>

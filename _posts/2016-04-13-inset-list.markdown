@@ -3,6 +3,7 @@ layout: post
 title:  "Create an Inset List"
 date:   2016-04-13
 categories: snippets
+author: Burke Holland
 image: /images/inset-list.png
 tags: 
     - snippet

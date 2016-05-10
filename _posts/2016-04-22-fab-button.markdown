@@ -3,6 +3,7 @@ layout: post
 title:  "Material Design FAB Speed Dial"
 date:   2016-04-22
 categories: snippets
+author: Brad Martin
 image: /images/fab-button.gif
 tags: 
     - material design

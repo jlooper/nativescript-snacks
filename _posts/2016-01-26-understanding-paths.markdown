@@ -3,6 +3,7 @@ layout: post
 title:  "Understanding Paths"
 date:   2016-01-26
 categories: videos
+author: Burke Holland
 image: http://i.ytimg.com/vi/HQy4g_HSheA/hqdefault.jpg
 tags: 
     - paths

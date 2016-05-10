@@ -3,6 +3,7 @@ layout: post
 title:  "Using SQLite in a NativeScript App"
 date:   2016-04-08
 categories: videos
+author: Nic Raboy
 image: http://i.ytimg.com/vi/QC3OFryBjEQ/hqdefault.jpg
 tags: 
     - app

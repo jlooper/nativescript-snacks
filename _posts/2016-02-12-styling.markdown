@@ -3,6 +3,7 @@ layout: post
 title:  "Styling NativeScript Apps"
 date:   2016-02-12
 categories: videos
+author: Burke Holland
 image: http://i.ytimg.com/vi/h67lQqFg170/hqdefault.jpg
 tags: 
     - styles
