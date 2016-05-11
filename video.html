@@ -20,6 +20,7 @@ layout: default
                             {% endif %}
                             <div class="6u">
                                 <section class="box snippetWrapper">
+                                    {% if post.type == 'ng' %}<span style="float:left"><img src="{{ site.baseurl }}/images/ng-n.png"></span>{% endif %}                                                                                                     
                                     <header class="minor">
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
                                         <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">

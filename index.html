@@ -20,6 +20,7 @@ layout: default
                             {% endif %}
                             <div class="6u">
                                 <section class="box snippetWrapper">
+                                    {% if post.type == 'ng' %}<span style="float:left"><img src="{{ site.baseurl }}/images/ng-n.png"></span>{% endif %}                                                                                                     
                                     <div class="wrapper">
                                         {% if post.categories contains 'videos' %}
                                             <div class="ribbon-wrapper"><div class="ribbon-green">Video</div></div>
