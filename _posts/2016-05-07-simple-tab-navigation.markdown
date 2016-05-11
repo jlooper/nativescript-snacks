@@ -3,7 +3,7 @@ layout: post
 title:  "NativeScript + Angular 2 Tab Navigation"
 date:   2016-05-07
 categories: snippets
-type: ng2
+type: ng
 image: /images/tab-nav.gif
 author: Adam Rafeeq
 tags: 
