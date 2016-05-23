@@ -10,7 +10,7 @@ tags:
     - animations
     - slides
     - swipe panels
-shortdesc: Beautiful CSS-based animations using keyframes. 
+shortdesc: Brad shows how easy it is to create an app intro with swipeable slides.
 ---
 <ul class="tabs clearfix">
   <li>
