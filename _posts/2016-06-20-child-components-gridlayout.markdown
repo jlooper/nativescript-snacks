@@ -3,7 +3,7 @@ layout: post
 title:  "Assigning Child Component Elements To Parent GridLayout"
 date:   2016-06-20
 categories: snippets
-type: ng2
+type: ng
 image: /images/gridlayout.png
 author: Don Burgess
 tags: 
