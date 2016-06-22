@@ -30,7 +30,7 @@ import {Component, OnInit, OnDestroy, AfterViewInit, ViewChild, ElementRef} from
 import {Page} from 'ui/page';
 import {SegmentedBar, SegmentedBarItem, SelectedIndexChangedEventData} from 'ui/segmented-bar';
 @Component({
-    selector: 'page-router-outlet',
+    selector: 'tabs',
     template: '&#x3C;SegmentedBar #tabs [items]=&#x22;items&#x22; [selectedIndex]=&#x22;selectedIndex&#x22;&#x3E;&#x3C;/SegmentedBar&#x3E;'
 })
 export class TabsComponent implements OnInit, OnDestroy, AfterViewInit {
