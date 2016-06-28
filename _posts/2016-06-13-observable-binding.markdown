@@ -3,6 +3,7 @@ layout: post
 title:  "RxJS Observable binding to ListView in {N} + Angular"
 date:   2016-06-07
 categories: snippets
+type: ng
 image: /images/observables.png
 author: Nathan Walker
 tags: 
@@ -24,7 +25,7 @@ shortdesc: BehaviorSubject is a type of Observable that works really well to bin
   
   <li>
     <input type="radio" name="tabs" id="tab2" />
-    <label for="tab2">JavaScript</label>
+    <label for="tab2">TypeScript</label>
     <div id="tab-content2" class="tab-content">
       <pre class="language-javascript">
         <code>

@@ -26,6 +26,7 @@ shortdesc: Easy tab navigation using NativeScript and Angular 2.
     <div id="tab-content2" class="tab-content">
       <pre class="language-html">
         <code>
+
 import {Component} from &#x22;angular2/core&#x22;;
 
 @Component({
@@ -43,6 +44,7 @@ import {Component} from &#x22;angular2/core&#x22;;
 })
 export class myApp {
 }
+
         </code>
       </pre>
     </div>

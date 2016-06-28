@@ -37,25 +37,29 @@ shortdesc: Nathan Walker shows us how to wire up a SegmentedBar.
     <label for="tab3">TypeScript</label>
     <div id="tab-content3" class="tab-content">
       <pre class="language-typescript">
-<code>import {Observable} from 'data/observable';
+        <code>
+
+import {Observable} from &#x27;data/observable&#x27;;
 
 export class Snippet extends Observable {
   public selectedItem: string;
-  public items: Array<any> = [
-    { title: 'Strawberry' },
-    { title: 'Blueberry' },
-    { title: 'Raspberry' }
+  public items: Array&#x3C;any&#x3E; = [
+    { title: &#x27;Strawberry&#x27; },
+    { title: &#x27;Blueberry&#x27; },
+    { title: &#x27;Raspberry&#x27; }
   ];
 
   constructor() {
     super();  
-    this.selectedItem = `Selected: ${this.items[0].title}`; 
+    this.selectedItem = &#x60;Selected: ${this.items[0].title}&#x60;; 
   }
 
   public selectSegment(e: any) {
-    this.set('selectedItem', `Selected: ${this.items[e.newIndex].title}`);  
+    this.set(&#x27;selectedItem&#x27;, &#x60;Selected: ${this.items[e.newIndex].title}&#x60;);  
   }  
-}</code>
+}
+
+        </code>
       </pre>
     </div>
   </li>
