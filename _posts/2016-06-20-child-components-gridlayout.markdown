@@ -27,6 +27,7 @@ shortdesc: 	Child components can't be assigned to gridlayouts, but the child com
     <div id="tab-content2" class="tab-content">
       <pre class="language-javascript">
         <code>
+
 import {
     Component,
     OnInit,
@@ -74,12 +75,12 @@ export class ChildComponent implements OnInit, AfterViewInit {
 		// Pass in your element to these static functions and they will attach to the closest parent gridlayout
         GridLayout.setRow(container, 0);
         GridLayout.setColumn(container, 1);
+        }
     }
 }
-    
-}
 
-		</code>
+		
+        </code>
       </pre>
     </div>
   </li>
