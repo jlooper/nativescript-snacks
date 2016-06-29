@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "3D Touch Shortcuts for your iOS Icons"
+date:   2016-06-29
+categories: videos
+image: http://i.ytimg.com/vi/Q5H_JT_kPrU/hqdefault.jpg
+author: Eddy Verbruggen
+tags: 
+    - icons
+    - 3d
+    - touch
+shortdesc: Eddy shows us how to add 3D Touch shortcuts to your homescreen icon, for added iOS pizzaz!
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q5H_JT_kPrU" frameborder="0" allowfullscreen></iframe>
