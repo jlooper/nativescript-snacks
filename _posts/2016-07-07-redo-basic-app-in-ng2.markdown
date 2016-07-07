@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "	Accesing NativeScript controls in Angular 2 with ViewChild"
+title:  "Accessing NativeScript controls in Angular 2 with ViewChild"
 date:   2016-07-07
 categories: snippets
 type: ng
