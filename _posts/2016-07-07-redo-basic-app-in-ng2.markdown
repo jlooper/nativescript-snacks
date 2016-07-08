@@ -21,10 +21,7 @@ shortdesc: 	Josh redoes the basic 'hello world' app in Angular, demonstrating ho
     </div>
   </li>
 
-&#x3C;StackLayout&#x3E;
-    &#x3C;Label text=&#x22;Tap the button&#x22; class=&#x22;title&#x22;&#x3E;&#x3C;/Label&#x3E;
-    &#x3C;Button #button text=&#x22;TAP&#x22; (tap)=&#x22;onTap()&#x22;&#x3E;&#x3C;/Button&#x3E;
-&#x3C;/StackLayout&#x3E;
+
   
   <li>
     <input type="radio" name="tabs" id="tab2" />
@@ -72,7 +69,10 @@ export class AppComponent implements AfterViewInit {
     <div id="tab-content3" class="tab-content">
       <pre class="language-html">
         <code>
-
+&#x3C;StackLayout&#x3E;
+    &#x3C;Label text=&#x22;Tap the button&#x22; class=&#x22;title&#x22;&#x3E;&#x3C;/Label&#x3E;
+    &#x3C;Button #button text=&#x22;TAP&#x22; (tap)=&#x22;onTap()&#x22;&#x3E;&#x3C;/Button&#x3E;
+&#x3C;/StackLayout&#x3E;
 	
 		    </code>
   </pre>
