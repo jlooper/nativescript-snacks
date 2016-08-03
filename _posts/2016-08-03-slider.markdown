@@ -40,15 +40,15 @@ shortdesc: 	Get the value of a slider on propertyChange
     <div id="tab-content3" class="tab-content">
       <pre class="language-javascript">
   <code>
-import { EventData } from 'data/observable';
-import { Page } from 'ui/page';
-import { Slider } from "ui/slider";
-// Event handler for Page "loaded" event attached in main-page.xml
+import { EventData } from &#x27;data/observable&#x27;;
+import { Page } from &#x27;ui/page&#x27;;
+import { Slider } from &#x22;ui/slider&#x22;;
+// Event handler for Page &#x22;loaded&#x22; event attached in main-page.xml
 export function pageLoaded(args: EventData) {
     // Get the event sender
-    var page = <Page>args.object;
-  	let slider = <Slider>page.getViewById('yourSlider');
- 	slider.on('propertyChange', (args: PropertyChangeData) => {
+    var page = &#x3C;Page&#x3E;args.object;
+  &#x9;let slider = &#x3C;Slider&#x3E;page.getViewById(&#x27;yourSlider&#x27;);
+ &#x9;slider.on(&#x27;propertyChange&#x27;, (args: PropertyChangeData) =&#x3E; {
       console.log(args.value);
     });
 }
