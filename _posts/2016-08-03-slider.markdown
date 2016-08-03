@@ -39,7 +39,7 @@ shortdesc: 	Get the value of a slider on propertyChange
     <label for="tab2">TypeScript</label>
     <div id="tab-content2" class="tab-content">
       <pre class="language-javascript">
-        <code>
+  <code>
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
 import { Slider } from "ui/slider";
@@ -51,8 +51,8 @@ export function pageLoaded(args: EventData) {
  	slider.on('propertyChange', (args: PropertyChangeData) => {
       console.log(args.value);
     });
-}	
-		</code>
+}
+   </code>
   </pre>
 </div>
 </li>
