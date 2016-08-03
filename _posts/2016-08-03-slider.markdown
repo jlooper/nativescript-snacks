@@ -25,24 +25,21 @@ shortdesc: 	Get the value of a slider on propertyChange
     <div id="tab-content3" class="tab-content">
       <pre class="language-html">
         <code>
-
 &#x3C;Page xmlns=&#x22;http://schemas.nativescript.org/tns.xsd&#x22; loaded=&#x22;pageLoaded&#x22;&#x3E;
   &#x3C;StackLayout&#x3E;
     &#x3C;Slider id=&#x22;yourSlider&#x22; value=&#x22;{{ sliderValue }}&#x22; maxValue=&#x22;20&#x22; minValue=&#x22;1&#x22; /&#x3E;
   &#x3C;/StackLayout&#x3E;
-&#x3C;/Page&#x3E;
-	
+&#x3C;/Page&#x3E;	
 		</code>
   </pre>
 </div>
 </li>  
-  <li>
+<li>
     <input type="radio" name="tabs" id="tab2" />
     <label for="tab2">TypeScript</label>
     <div id="tab-content2" class="tab-content">
       <pre class="language-javascript">
         <code>
-
 import { EventData } from 'data/observable';
 import { Page } from 'ui/page';
 import { Slider } from "ui/slider";
@@ -54,8 +51,7 @@ export function pageLoaded(args: EventData) {
  	slider.on('propertyChange', (args: PropertyChangeData) => {
       console.log(args.value);
     });
-}
-	
+}	
 		</code>
   </pre>
 </div>
