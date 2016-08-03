@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Slider with TypeScript propertyChange"
+date:   2016-08-03
+categories: snippets
+image: /images/slider.png
+author: Brad Martin
+tags: 
+    - slider
+    - index
+    - typescript
+shortdesc: 	Get the value of a slider on propertyChange
+---
+<ul class="tabs clearfix">
+  <li>
+    <input type="radio" name="tabs" id="tab1" checked />
+    <label for="tab1">Preview</label>
+    <div id="tab-content1" class="tab-content">
+        <img src="/images/slider.png">
+    </div>
+  </li> 
+  <li>
+    <input type="radio" name="tabs" id="tab3" />
+    <label for="tab3">XML</label>
+    <div id="tab-content3" class="tab-content">
+      <pre class="language-html">
+        <code>
+
+&#x3C;Page xmlns=&#x22;http://schemas.nativescript.org/tns.xsd&#x22; loaded=&#x22;pageLoaded&#x22;&#x3E;
+  &#x3C;StackLayout&#x3E;
+    &#x3C;Slider id=&#x22;yourSlider&#x22; value=&#x22;{{ sliderValue }}&#x22; maxValue=&#x22;20&#x22; minValue=&#x22;1&#x22; /&#x3E;
+  &#x3C;/StackLayout&#x3E;
+&#x3C;/Page&#x3E;
+	
+		</code>
+  </pre>
+</div>
+</li>  
+  <li>
+    <input type="radio" name="tabs" id="tab2" />
+    <label for="tab2">TypeScript</label>
+    <div id="tab-content2" class="tab-content">
+      <pre class="language-javascript">
+        <code>
+
+import { EventData } from 'data/observable';
+import { Page } from 'ui/page';
+import { Slider } from "ui/slider";
+// Event handler for Page "loaded" event attached in main-page.xml
+export function pageLoaded(args: EventData) {
+    // Get the event sender
+    var page = <Page>args.object;
+  	let slider = <Slider>page.getViewById('yourSlider');
+ 	slider.on('propertyChange', (args: PropertyChangeData) => {
+      console.log(args.value);
+    });
+}
+	
+		</code>
+  </pre>
+</div>
+</li>
+
+</ul>
