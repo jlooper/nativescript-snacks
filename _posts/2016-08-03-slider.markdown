@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Slider with TypeScript propertyChange"
+title:  "Slider with TypeScript on propertyChange"
 date:   2016-08-03
 categories: snippets
 image: /images/slider.png
