@@ -1,6 +1,6 @@
 # NativeScript Snacks
 
-The gh-pages branch of this repo hosts [NativeScriptSnacks.com](nativeScriptsnacks.com), a website with short, snack-sized video content that helps users learn more at Telerik NativeScript.
+The gh-pages branch of this repo hosts [NativeScriptSnacks.com](https://nativeScriptsnacks.com), a website with short, snack-sized video content that helps users learn more at Telerik NativeScript.
 
 If you'd like to contribute content, please use the 'contribute' link on the site.
 
