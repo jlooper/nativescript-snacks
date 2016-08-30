@@ -67,39 +67,39 @@ shortdesc: 	Layout example on how to mimic the AOSP Messages conversation layout
     <div id="tab-content4" class="tab-content">
       <pre class="language-javascript">
   <code>
-import {Component, OnInit} from "@angular/core"
-import {NS_ROUTER_DIRECTIVES} from "nativescript-angular/router"
-import {SMSService} from "~/services/sms.service"
+import {Component, OnInit} from &#x22;@angular/core&#x22;
+import {NS_ROUTER_DIRECTIVES} from &#x22;nativescript-angular/router&#x22;
+import {SMSService} from &#x22;~/services/sms.service&#x22;
 
 
 
 @Component({
-	directives: [NS_ROUTER_DIRECTIVES],
-	styleUrls: ["pages/sandbox/sandbox.styles.css"],
-	templateUrl: "pages/sandbox/sandbox.template.html",
-	providers: [SMSService], // this service gets device conversations and contacts
+&#x9;directives: [NS_ROUTER_DIRECTIVES],
+&#x9;styleUrls: [&#x22;pages/sandbox/sandbox.styles.css&#x22;],
+&#x9;templateUrl: &#x22;pages/sandbox/sandbox.template.html&#x22;,
+&#x9;providers: [SMSService], // this service gets device conversations and contacts
 })
 
 export class AddLiveComponent implements OnInit {
 
-	conversations: Array<any> = []
+&#x9;conversations: Array&#x3C;any&#x3E; = []
 
-	constructor(
-		private smsService: SMSService
-	) {}
+&#x9;constructor(
+&#x9;&#x9;private smsService: SMSService
+&#x9;) {}
 
-	ngOnInit() {
-		this.getConversations()
-	}
+&#x9;ngOnInit() {
+&#x9;&#x9;this.getConversations()
+&#x9;}
 
-	getConversations() {
-		this.smsService.getConversations().then((conversations) => {
-			this.conversations = conversations
-		}).catch(function(error) {
-			global.tnsconsole.error('error', error)
-		})
+&#x9;getConversations() {
+&#x9;&#x9;this.smsService.getConversations().then((conversations) =&#x3E; {
+&#x9;&#x9;&#x9;this.conversations = conversations
+&#x9;&#x9;}).catch(function(error) {
+&#x9;&#x9;&#x9;global.tnsconsole.error(&#x27;error&#x27;, error)
+&#x9;&#x9;})
 
-	}
+&#x9;}
 
 }
    </code>
