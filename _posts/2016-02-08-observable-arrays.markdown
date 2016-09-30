@@ -5,6 +5,7 @@ date:   2016-02-08
 categories: videos
 author: Burke Holland
 image: http://i.ytimg.com/vi/Mt5F1xe4tQQ/hqdefault.jpg
+videoUrl: https://www.youtube.com/embed/Mt5F1xe4tQQ
 tags: 
     - observable-arrays
     - observables
@@ -14,4 +15,4 @@ tags:
     - lists
 shortdesc: How to use the Observable Array in NativeScript to create collections of items that are bound to a user interface.
 ---
-<iframe width="640" height="360" src="https://www.youtube.com/embed/Mt5F1xe4tQQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -5,6 +5,7 @@ date:   2016-03-14
 categories: videos
 author: Todd Anglin
 image: http://i.ytimg.com/vi/f4KAkv0JwmQ/hqdefault.jpg
+videoUrl: https://www.youtube.com/embed/f4KAkv0JwmQ
 tags: 
     - sass
     - less
@@ -12,4 +13,4 @@ tags:
     - styles
 shortdesc: In this episode, Todd Anglin goes over how to add built-in support for Sass and Less to your NativeScript project.
 ---
-<iframe width="640" height="360" src="https://www.youtube.com/embed/f4KAkv0JwmQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>

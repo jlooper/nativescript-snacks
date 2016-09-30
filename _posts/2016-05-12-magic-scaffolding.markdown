@@ -6,6 +6,7 @@ categories: videos
 type: ng
 author: Nathan Walker
 image: http://i.ytimg.com/vi/T2wAb6UX8zo/hqdefault.jpg
+videoUrl: https://www.youtube.com/embed/T2wAb6UX8zo
 tags: 
     - scaffolding
     - angular2
@@ -13,4 +14,4 @@ tags:
     - angular-cli
 shortdesc: 	Angular CLI is a sweet way to create an Angular 2 app quickly, but how to add NativeScript to the mix? With a little magic of course.
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T2wAb6UX8zo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
