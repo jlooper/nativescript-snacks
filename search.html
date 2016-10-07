@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+
+<div class="row">
+    <div class="12u">
+
+        <!-- Snacks -->
+            <section>
+                <header class="major">
+                    <h2>Search for Snacks</h2>
+                </header>
+                <div class="row">
+                    <div class="12u">
+                    <!-- Html Elements for Search -->
+                        <div id="search-container">
+                            <input type="text" id="search-input" placeholder="search...">                    
+                        </div>
+                    </div>
+               </div>   
+               <div class="row">                  
+                    <ul class="dates" id="results-container"></ul>
+                    <!-- Script pointing to jekyll-search.js -->
+                    <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script> 
+                    
+                    <script type="text/javascript">
+                    SimpleJekyllSearch({
+                        searchInput: document.getElementById('search-input'),
+                        resultsContainer: document.getElementById('results-container'),
+                        json: '/search.json',
+                        searchResultTemplate: '<li><span class="date">{date}</span><h3><a href="{url}">{title}</a></h3><p>{shortdesc}</p></li>',
+                        noResultsText: 'No results found. Would you like to <a href="http://github.com/jlooper/nativescript-snacks/issues">request this tutorial</a>?',
+                        limit: 10,
+                        fuzzy: false,
+                        exclude: ['Welcome']
+                    })
+                    </script>
+             
+                </div>
+            </section>
+
+    </div>
+</div>

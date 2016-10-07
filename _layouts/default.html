@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="homepage">
+    <div id="page-wrapper">
+
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main-wrapper">
+        <div class="container">
+        {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    </div>
+    
+    {% include js.html %}
+  </body>
+
+</html>

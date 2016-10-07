@@ -1,0 +1,27 @@
+<div id="header-wrapper">
+    <div id="header">
+        <!-- Banner -->
+        <section id="banner">
+            <header>
+                <!-- Logo -->
+                <img src="{{site.logo | prepend: site.baseurl}}"/>
+                    
+                <h1><a href="/">NativeScript Snacks</a></h1>
+            </header>
+        </section>
+            
+        <nav id="nav">
+            <ul>
+
+                <li {% if page.url == "/video.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/video.html">Video Tutorials</a></li>
+                <li {% if page.url == "/snippets.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/snippets.html">Code Snippets</a></li>
+                <li style="white-space: nowrap;"><a href="http://github.com/jlooper/nativescript-snacks/issues">Request a Tutorial</a></li>
+                <li {% if page.url == "/contribute.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/contribute.html">Contribute</a></li>
+                <li {% if page.url == "/search.html" %} class="current" {% endif %} style="white-space: nowrap;"><a href="/search.html">Search</a></li>
+                <li style="white-space: nowrap;"><a href="http://www.nativescript.org">About NativeScript</a></li>
+                
+            </ul>
+        </nav>
+
+    </div>
+</div>

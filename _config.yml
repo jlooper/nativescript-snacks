@@ -1,0 +1,16 @@
+# Site settings
+title: How to’s and Getting Started Tutorials and Snippets to Learn NativeScript for Cross-Platform Mobile App Development – NativeScript Snacks
+email: jen.looper@telerik.com
+banner: "/images/about.jpg"
+logo: "/images/logo.png"
+description: > # this means to ignore newlines until "baseurl:"
+  NativeScript Snacks are bite-sized videos and code snippets that teach you more than you ever wanted to know about NativeScript, all in a tiny, digestible, healthy format.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.nativescriptsnacks.com" # the base hostname & protocol for your site
+paginate: 6
+# Build settings
+markdown: kramdown
+gems: [jekyll-paginate]
+excerpt_separator: "<!--more-->"
+collections:
+- snippets

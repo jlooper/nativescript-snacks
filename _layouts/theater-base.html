@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+	<link href="https://kendo.cdn.telerik.com/2016.3.914/styles/kendo.common-material.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://kendo.cdn.telerik.com/2016.3.914/styles/kendo.material.min.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="{{ "/css/theater.css" | prepend: site.baseurl }}" />
+
+    {% include js.html %}
+<script src="https://kendo.cdn.telerik.com/2016.3.914/js/kendo.all.min.js"></script>
+  <body class="homepage">
+    <div id="page-wrapper">
+
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main-wrapper">
+        <div class="container">
+        {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    </div>
+    
+  </body>
+
+</html>

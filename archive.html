@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+
+<div class="row">
+    <div class="12u">
+
+        <!-- Snacks -->
+            <section>
+                <header class="major">
+                    <h2>All Snacks</h2>
+                </header>
+                <div class="row">
+                    <div class="12u">
+                        <section>
+                            <ul class="dates">
+                            {% for post in site.posts %}
+                                <li>
+                                    <span class="date">{{ post.date | date: "%b" }} {{ post.date | date: "%-d" }},<br/> {{ post.date | date: "%Y" }} </span>
+                                    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                                    <p>{{ post.shortdesc }}</p>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        </section>
+                    </div>
+            </section>
+
+    </div>
+</div>

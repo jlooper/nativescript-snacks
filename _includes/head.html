@@ -1,0 +1,23 @@
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="keywords" content="nativescript,telerik,video,tutorial,mobile apps,development,javascript,css,xml,typescript,AngularJS" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{ "/css/skel.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ "/css/prism.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ "/css/style-desktop.css" | prepend: site.baseurl }}" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie/v8.css" | prepend: site.baseurl }}" /><![endif]-->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-65309624-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
