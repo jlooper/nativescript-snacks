@@ -12,4 +12,4 @@ tags:
     - swipe
 shortdesc: 	Bradley walks us through building swipe-to-reveal actions into your NativeScript Repeater items
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

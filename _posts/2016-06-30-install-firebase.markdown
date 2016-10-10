@@ -11,4 +11,4 @@ tags:
     - installation
 shortdesc: Have no fear, Eddy's here, holding your hand while setting up Firebase!
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

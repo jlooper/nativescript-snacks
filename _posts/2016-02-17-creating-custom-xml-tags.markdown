@@ -11,4 +11,4 @@ tags:
     - modules
 shortdesc: In this video, I’ll show you how to create custom XML tags in NativeScript. This is very useful for creating re-usable components, and breaking up your markup into smaller, more modular files.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

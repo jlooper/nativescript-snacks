@@ -12,4 +12,4 @@ tags:
     - draggable
 shortdesc: 	Josh Sommer shows you how to create a very simple draggable object on the screen using the absolute layout and the touch event gesture.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

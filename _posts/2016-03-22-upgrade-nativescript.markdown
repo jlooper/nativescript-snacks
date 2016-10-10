@@ -12,4 +12,4 @@ tags:
     - install
 shortdesc: Upgrade your NativeScript installation and update your app to support it. Short and sweet.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

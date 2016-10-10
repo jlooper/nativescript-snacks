@@ -11,4 +11,4 @@ tags:
     - vscode
 shortdesc: In this episode, Burke shows you how to install the NativeScript extension for Visual Studio Code, and how you can debug your TypeScript applications in real time.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

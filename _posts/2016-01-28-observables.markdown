@@ -10,4 +10,4 @@ tags:
     - observables
 shortdesc: An introduction to Observables In NativeScript
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -11,4 +11,4 @@ tags:
     - remake   
 shortdesc: The TSA spent 47K on a simple app for TSA agents. Let's recreate it!
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

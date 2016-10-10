@@ -14,4 +14,4 @@ tags:
     - setup
 shortdesc: 	Nic Raboy shows us how to start developing NativeScript apps on an Ubuntu computer.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -10,4 +10,4 @@ tags:
     - animations
 shortdesc: In this episode, TJ VanToll shows you how to easily create and control animations and animation timings via the NativeScript animate API.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

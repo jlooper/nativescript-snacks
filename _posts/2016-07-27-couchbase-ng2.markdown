@@ -17,4 +17,4 @@ tags:
     - angular2
 shortdesc: 	Nic Raboy shows us how to create an application that uses NoSQL and syncs between devices using Angular 2 and Couchbase.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

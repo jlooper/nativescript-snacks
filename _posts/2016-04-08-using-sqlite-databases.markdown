@@ -11,4 +11,4 @@ tags:
     - remake   
 shortdesc: 	Nic Raboy shows us how to use of SQLite instead of the application settings module.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -13,4 +13,4 @@ tags:
     - database
 shortdesc: 	Nic Raboy shows how to deploy a pre-filled SQLite database in a NativeScript Android and iOS mobile application.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

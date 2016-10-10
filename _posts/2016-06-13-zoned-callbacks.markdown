@@ -13,4 +13,4 @@ tags:
     - refresh list
 shortdesc: 	Using NativeScript's zonedCallback global, you can ensure your view updates happen as expected when wiring up 3rd party plugin callbacks.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

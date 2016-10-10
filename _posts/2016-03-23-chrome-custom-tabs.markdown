@@ -12,4 +12,4 @@ tags:
     - tabs
 shortdesc: Brad Martin gives you the lowdown on Chrome tabs, which launch web content on Android without relying on a webview. 
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

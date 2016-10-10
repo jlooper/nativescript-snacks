@@ -12,4 +12,4 @@ tags:
     - font
 shortdesc: In this short video, I’ll show you how to add the Font Awesome icon font to a NativeScript application, how to search for icons you need, and the right escape sequences to get those icons working in NativeScript.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

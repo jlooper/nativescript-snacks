@@ -12,4 +12,4 @@ tags:
     - binding
 shortdesc: How to manually get a reference to a control and bind to an event or change a control value.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -12,4 +12,4 @@ tags:
     - settings
 shortdesc: 	NativeScript does not have the often used Local Storage API, but it does have a very similar API called “ApplicationSettings” that can be used in almost the exact same way. In this video we look at how to stringify, store and retrieve objects.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -10,4 +10,4 @@ tags:
     - typescript
 shortdesc: A quick demo of how to leverage the built-in support for TypeScript in NativeScript 1.5.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

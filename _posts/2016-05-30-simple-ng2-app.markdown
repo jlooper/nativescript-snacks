@@ -13,4 +13,4 @@ tags:
     - mobile
 shortdesc: 	Nic Raboy teaches how to build a NativeScript Android and iOS mobile application using the Angular 2 JavaScript framework and TypeScript.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -12,4 +12,4 @@ tags:
     - plugin
 shortdesc: 	Nic Raboy shows how to use local notifications in your NativeScript Android and iOS mobile application.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

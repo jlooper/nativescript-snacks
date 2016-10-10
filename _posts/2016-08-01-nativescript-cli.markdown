@@ -12,4 +12,4 @@ tags:
     - github
 shortdesc: How to grab the latest bits from the nativescript-cli repo on GitHub and run multiple versions of the CLI on your machine.
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -13,4 +13,4 @@ tags:
     - styles
 shortdesc: In this episode, Todd Anglin goes over how to add built-in support for Sass and Less to your NativeScript project.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

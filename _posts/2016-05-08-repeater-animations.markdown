@@ -12,4 +12,4 @@ tags:
     - lists
 shortdesc: 	Bradley walks us through how the Repeater works, and how to animate items coming in or going out!
 ---
-<iframe width="560" height="315" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

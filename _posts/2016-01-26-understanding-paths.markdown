@@ -10,4 +10,4 @@ tags:
     - paths
 shortdesc: A short video on understanding how to reference modules / files in NativeScript and understanding the difference between node_modules and project files.
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>

@@ -12,4 +12,4 @@ tags:
     - styling
 shortdesc: Ben Elliott shows us how to add theme switching to your NativeScript app. 
 ---
-<iframe width="640" height="360" src="{{ videoUrl }}" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
