@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Theming a NativeScript Angular 2 Mobile Application"
+date:   2016-10-14
+categories: videos
+type: ng
+author: Nic Raboy
+image: http://i.ytimg.com/vi/0Ml-73GdNp0/hqdefault.jpg
+videoUrl: https://www.youtube.com/embed/0Ml-73GdNp0
+tags: 
+    - navigating
+    - angular 2
+shortdesc: 	Learn how to apply an attractive CSS theme to your NativeScript application that uses Angular 2.
+---
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
