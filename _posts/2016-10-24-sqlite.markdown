@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Use SQLite in a NativeScript Angular 2 Mobile App"
+date:   2016-10-24
+categories: videos
+type: ng
+author: Nic Raboy
+image: http://i.ytimg.com/vi/l2VMOSE2oiQ/hqdefault.jpg
+videoUrl: https://www.youtube.com/embed/l2VMOSE2oiQ
+tags: 
+    - relational
+    - database
+    - sqlite
+    - angular 2
+shortdesc: Learn how to use a SQLite database to store your data in a NativeScript app built with Angular 2.
+---
+<iframe width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
