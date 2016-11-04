@@ -30,7 +30,7 @@ var frameModule = require(&#x22;ui/frame&#x22;);
 var application = require(&#x22;application&#x22;)
 
 var activity = application.android.startActivity ||
-        application_1.android.foregroundActivity ||
+        application.android.foregroundActivity ||
         frameModule.topmost().android.currentActivity ||
         frameModule.topmost().android.activity;
 var lastPress;
