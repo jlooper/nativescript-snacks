@@ -24,7 +24,7 @@ shortdesc: 	This was adapted from another user's code, but moved to be in your p
     <label for="tab2">JavaScript</label>
     <div id="tab-content2" class="tab-content">
       <p>
-      <pre class="language-html">
+      <pre class="language-javascript">
         <code>
  viewModel.saveToAlbum = function(instance, format, quality) {
     var res = false;
