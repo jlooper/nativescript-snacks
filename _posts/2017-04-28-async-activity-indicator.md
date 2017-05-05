@@ -32,10 +32,10 @@ ngOnInit(){
   this.isLoading= true;
   this.isAnonymous = BackendService.isAnonymous;
   this.sub$ = this.route.params;
-  this.articles$ = this.sub$.switchMap((params: any) =&#x3E; {
-                              this.categoryTitle = params[&#x27;categoryTitle&#x27;];
-                              return &#x3C;any&#x3E;this.firebaseService.getArticleList(params[&#x27;id&#x27;])});&#x9;
- this.articles$.subscribe(()=&#x3E;{
+  this.articles$ = this.sub$.switchMap((params: any) =&#x26;#x3E; {
+                              this.categoryTitle = params[&#x26;#x27;categoryTitle&#x26;#x27;];
+                              return &#x26;#x3C;any&#x26;#x3E;this.firebaseService.getArticleList(params[&#x26;#x27;id&#x26;#x27;])});&#x26;#x9;
+ this.articles$.subscribe(()=&#x26;#x3E;{
            this.isLoading= false;
  });
 }
