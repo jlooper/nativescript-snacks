@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="12u">      
+            <section>
+                <header class="major">
+                    <h2>Snacklabs</h2>
+                </header>
+                    <div class="row">
+                       {% assign counter = 0 %}
+                        {% for post in site.categories.snacklabs %}
+                           {% assign counter = counter | plus: 1 %}
+                            {% if counter > 6 %}
+                                {% assign counter = 1 %}
+                            {% endif %}
+                            <div class="6u">
+                                <a href="{{ post.link | prepend: site.baseurl }}">
+                                    <section class="box snacklabWrapper"> 
+                                    {% if post.type == 'ng' %}<span style="float:left"><img src="{{ site.baseurl }}/images/ng-n.png"></span>{% endif %}                                                                                                                                                                       
+                                    <header class="minor">
+                                        <h3>{{post.title}}</h3>
+                                        <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">                                        
+                                        <h4>by {{post.author}}</h4>
+                                        <p>{{post.shortdesc}}</p>
+                                    </header>                            
+                                </section>
+                                </a>
+                            </div>
+                      {% endfor %}
+                </div>           
+            </section>
+
+    </div>
+</div>
