@@ -8,6 +8,9 @@ layout: default
                 <header class="major">
                     <h2>Snacklabs</h2>
                 </header>
+                <div class="row">
+                    <p>Like to contribute a Snacklab? We welcome contributions! Please follow the <a href="https://github.com/jlooper/snacklabs">instructions on the ReadMe</a> to create a new lab. Then, please fill out <a href="http://127.0.0.1:4000/contribute.html">this form</a> to let me know what you have built so that we can include it on this site!</p>   
+                </div>  
                     <div class="row">
                        {% assign counter = 0 %}
                         {% for post in site.categories.snacklabs %}
@@ -23,13 +26,17 @@ layout: default
                                         <h3>{{post.title}}</h3>
                                         <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">                                        
                                         <h4>by {{post.author}}</h4>
+                                        <span class="image centered">                            
+                                            <img src="{{post.image}}"/>
+                                        </span>
                                         <p>{{post.shortdesc}}</p>
                                     </header>                            
                                 </section>
                                 </a>
                             </div>
                       {% endfor %}
-                </div>           
+                </div>
+                          
             </section>
 
     </div>
