@@ -29,7 +29,11 @@ layout: default
                                         {% endif %}
                                     </div>
                                     <header class="minor">
+                                        {% if post.categories contains 'snacklabs' or post.categories contains 'playground' %}
+                                            <h3><a href="{{ post.link }}">{{post.title}}</a></h3>
+                                        {% else %}
                                         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
+                                        {% endif %}
                                         <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">
                                         <h4>by {{post.author}}</h4>
                                     </header>                            
