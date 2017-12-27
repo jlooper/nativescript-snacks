@@ -6,6 +6,6 @@ type: ng
 categories: playground
 author: Jeremiah Ogbomo
 image: /images/circular-progress.gif
-link: "ttps://play.nativescript.org/?template=play-ng&id=ERyQe1&v=3"
+link: "https://play.nativescript.org/?template=play-ng&id=ERyQe1&v=3"
 shortdesc: Jeremiah shows how to make a custom circular progressbar component.
 ---
