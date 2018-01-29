@@ -22,6 +22,8 @@ layout: default
                                 <a href="{{ post.link | prepend: site.baseurl }}">
                                     <section class="box snacklabWrapper"> 
                                     {% if post.type == 'ng' %}<span style="float:left"><img src="{{ site.baseurl }}/images/ng-n.png"></span>{% endif %}                                                                                                                                                                       
+                                    {% if post.type == 'vue' %}<span style="float:left"><img src="{{ site.baseurl }}/images/ns-vue.png"></span>{% endif %}                                                                                                     
+
                                     <header class="minor">
                                         <h3>{{post.title}}</h3>
                                         <img src="{{ site.baseurl }}/images/snack{{counter}}.jpg">                                        
